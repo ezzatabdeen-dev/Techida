@@ -1,0 +1,173 @@
+:root {
+    --opacity: .7s;
+    --transform: .7s;
+}
+.l_r-manage {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.l_r {
+    opacity: 1;
+    transform: translateX(0);
+}
+.r_l-manage {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.r_l {
+    opacity: 1;
+    transform: translateX(0);
+}
+.t_b-manage {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.t_b {
+    opacity: 1;
+    transform: translateY(0);
+}
+.b_t-manage {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.b_t {
+    opacity: 1;
+    transform: translateY(0);
+}
+.lt_rb-manage {
+    opacity: 0;
+    transform: translate(-100px, -100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.lt_rb {
+    opacity: 1;
+    transform: translateY(0);
+}
+.lb_rt-manage {
+    opacity: 0;
+    transform: translate(-100px, 100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.lb_rt {
+    opacity: 1;
+    transform: translateY(0);
+}
+.rt_lb-manage {
+    opacity: 0;
+    transform: translate(100px, -100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.rt_lb {
+    opacity: 1;
+    transform: translateY(0);
+}
+.rb_lt-manage {
+    opacity: 0;
+    transform: translate(100px, 100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.rb_lt {
+    opacity: 1;
+    transform: translateY(0);
+}
+.scale-xy-plus-manage {
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.scale-xy-plus {
+    opacity: 1;
+    transform: scale(100%);
+}
+.scale-xy-minus-manage {
+    opacity: 0;
+    transform: scale(1.2, 1.2);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.scale-xy-minus {
+    opacity: 1;
+    transform: scale(100%);
+}
+.scale-Y-manage {
+    opacity: 0;
+    transform: scaleY(0);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.scale-Y {
+    opacity: 1;
+    transform: scaleY(1);
+}
+.skew-x-manage {
+    opacity: 0;
+    transform: skewX(50deg);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.skew-x {
+    opacity: 1;
+    transform: skewX(0);
+}
+.skew-x-minus-manage {
+    opacity: 0;
+    transform: skewX(-50deg);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.skew-x-minus {
+    opacity: 1;
+    transform: skewX(0);
+}
+.skew-y-manage {
+    opacity: 0;
+    transform: skewY(90deg);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.skew-y {
+    opacity: 1;
+    transform: skewY(0);
+}
+.opacity-manage {
+    opacity: 0;
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.opacity {
+    opacity: 1;
+}
+.translate_b_t-manage {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.translate_b_t {
+    opacity: 1;
+    transform: translateY(0);
+}
+.translate_t_b-manage {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.translate_t_b {
+    opacity: 1;
+    transform: translateY(0);
+}
+.translate_l_r-manage {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.translate_l_r {
+    opacity: 1;
+    transform: translateX(0);
+}
+.translate_r_l-manage {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity var(--opacity), transform var(--transform);
+}
+.translate_r_l {
+    opacity: 1;
+    transform: translateX(0);
+}
